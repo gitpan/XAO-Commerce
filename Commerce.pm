@@ -4,7 +4,7 @@ XAO::Commerce - eCommerce Suite
 
 =head1 SYNOPSIS
 
-<%Commerce module="XAO::Web"%>
+See sample site templates, images and usage examples.
 
 =head1 DESCRIPTION
 
@@ -37,7 +37,7 @@ method information.
 
 =item *
 
-XAO::DO::Web::PayMethod: a child of Web::FS, keeps product information.
+XAO::DO::Web::Product: a child of Web::FS, keeps product information.
 
 =item *
 
@@ -206,7 +206,7 @@ package XAO::Commerce;
 use strict;
 
 use vars qw($VERSION);
-$VERSION='1.0';
+$VERSION='1.01';
 
 ###############################################################################
 1;
